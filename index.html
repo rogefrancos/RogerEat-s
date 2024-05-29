@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css\stylesy.css" type="text/css">
+    <title>Roger Eat's</title>
+</head>
+<body>
+
+    <ul>
+        <li><a  class="active" href="index.html">Roger Eat's</a></li>
+        <li style="float:right"><a href="checkout.php"><img src="images/shopppingicon.png" alt="shopppingicon" style="width:35px;height:35px;"></a></li>
+      </ul> 
+
+    <br><br><br>
+      <div class="grid-container">
+        <div class="grid-item1"><h1>Bienvenido a Roger Eat's</h1></div>             
+    <div class="grid-container">
+        <div class="grid-itemmc"><img src="images/mcbanner2.jpg" alt="shopppingicon" style="width:400px;height:220px;"></div>
+        <div class="grid-item">
+            <img src="images/cheesebrgr.jpg" alt="shopppingicon" style="width:300px;height:250px;">
+            <p>Hamburguesa Sencilla</p>
+            $70
+                <br>
+                <button onclick="addToCart('Hamburguesa sencilla', 70)">Agregar</button>
+        </div>
+        <div class="grid-item">
+            <img src="images/fries.jpg" alt="shopppingicon" style="width:300px;height:250px;">
+            <p>Papas</p>
+            $49
+            <br>
+            <button onclick="addToCart('Papas', 49)">Agregar</button>
+        </div>
+        <div class="grid-item">
+            <img src="images/nuggets6p.jpg" alt="shopppingicon" style="width:300px;height:250px;">
+            <p>Nuggets 6 pzas</p>
+            $79
+            <br>
+            <button onclick="addToCart('Nuggets 6 pzas', 79)">Agregar</button>
+        </div>
+        <div class="grid-item">
+            <img src="images/nuggets20p.jpg" alt="shopppingicon" style="width:300px;height:250px;">
+            <p>Nuggets 20 pzas</p>
+            $189
+            <br>
+            <button onclick="addToCart('Nuggets 20 pzas',189)">Agregar</button>
+        </div>
+        <div class="grid-item">
+            <img src="images/mcqtr.png" alt="shopppingicon" style="width:300px;height:250px;">
+            <p>NCuarto de libra</p>
+            $109
+            <br>
+            <button onclick="addToCart('Cuarto de libra',109)">Agregar</button>
+        </div>
+        <div class="grid-item">
+            <img src="images/mcpollo.jpg" alt="shopppingicon" style="width:300px;height:250px;">
+            <p>McPollo</p>
+            $79
+            <br>
+            <button onclick="addToCart('McPollo',79)">Agregar</button>
+        </div>
+        <div class="grid-item">
+            <img src="images/soda.jpg" alt="shopppingicon" style="width:300px;height:250px;">
+            <p>Refresco</p>
+            $39
+            <br>
+            <button onclick="addToCart('Refresco',39)">Agregar</button>
+        </div>
+        <div class="grid-item">
+            <img src="images/mcflurry.jpg" alt="shopppingicon" style="width:300px;height:250px;">
+            <p>McFlurry</p>
+            $60
+            <br>
+            <button onclick="addToCart('McFlurry',60)">Agregar</button>
+        </div>
+    </div>
+
+    <div class="grid-container">
+        <div class="grid-itemtacos"><img src="images/tacosbjto.png" alt="shopppingicon" style="width:250px;height:220px;"></div>
+        <div class="grid-item">
+            <img src="images/bistec.jpg" alt="shopppingicon" style="width:300px;height:250px;">
+            <p>Taco de bistec</p>
+            $22
+            <br>
+            <button onclick="addToCart('Taco de bistec',22)">Agregar</button>
+        </div>
+        <div class="grid-item">
+            <img src="images/pastor.jpg" alt="shopppingicon" style="width:300px;height:250px;">
+            <p>Taco de pastor</p>
+            $22
+            <br>
+            <button onclick="addToCart('Taco de pastor',22)">Agregar</button>
+        </div>
+        <div class="grid-item">
+            <img src="images/chorizo.jpg" alt="shopppingicon" style="width:300px;height:250px;">
+            <p>Taco de chorizo</p>
+            $22
+            <br>
+            <button onclick="addToCart('Taco de chorizo',22)">Agregar</button>
+        </div>
+        <div class="grid-item">
+            <img src="images/arrachera.jpg" alt="shopppingicon" style="width:300px;height:250px;">
+            <p>Taco de arrachera</p>
+            $30
+            <br>
+            <button onclick="addToCart('Taco de arrachera', 30)">Agregar</button>
+        </div>
+    </div>
+
+    <div class="grid-container">
+        <div class="grid-itempizza"><img src="images/pizzaplaneta.png" alt="shopppingicon" style="width:250px;height:220px;"></div>
+        <div class="grid-item">
+            <img src="images/pizzapp.jpg" alt="shopppingicon" style="width:300px;height:250px;">
+            <p>Pizza peperoni</p>
+            $179
+            <br>
+            <button onclick="addToCart('Pizza peperoni',179)">Agregar</button>
+        </div>
+        <div class="grid-item">
+            <img src="images/pizzahwn.jpg" alt="shopppingicon" style="width:300px;height:250px;">
+            <p>Pizza hawaiana</p>
+            $189
+            <br>
+            <button onclick="addToCart('pizza hawaiana',189)">Agregar</button>
+        </div>
+        <div class="grid-item">
+            <img src="images/pizzapll.jpg" alt="shopppingicon" style="width:300px;height:250px;">
+            <p>Pizza pollo</p>
+            $189
+            <br>
+            <button onclick="addToCart('Pizza pollo',189)">Agregar</button>
+        </div>
+        <div class="grid-item">
+            <img src="images/pizzacrn.webp" alt="shopppingicon" style="width:300px;height:250px;">
+            <p>Pizza de carnes frias</p>
+            $209
+            <br>
+            <button onclick="addToCart('Pizza de carnes frias', 209)">Agregar</button>
+        </div>
+
+
+    <div class="cart">
+        <h2>Carrito de Compras</h2>
+        <div id="cart-items"></div>
+        Total a Pagar: $<span id="total">0</span> <br>
+        <button class="save-button" onclick="proceedToCheckout()">Confirmar y proceder al pago</button>
+        <input type="hidden" id="cartItemsInput" name="cartItems">
+        <button class="clear-button" onclick="clearCart()">Eliminar articulos</button>
+    </div>
+
+    
+    <script>
+        let total = 0;
+        const cartItems = {};
+
+        function addToCart(productName, price) {
+            total += price;
+            document.getElementById('total').textContent = total;
+
+            if (cartItems[productName]) {
+                cartItems[productName].quantity += 1;
+                cartItems[productName].totalPrice += price;
+            } else {
+                cartItems[productName] = { price: price, quantity: 1, totalPrice: price };
+            }
+
+            updateCart();
+        }
+
+        function removeFromCart(productName) {
+            const item = cartItems[productName];
+            if (item) {
+                total -= item.price;
+                document.getElementById('total').textContent = total;
+
+                if (item.quantity > 1) {
+                    item.quantity -= 1;
+                    item.totalPrice -= item.price;
+                } else {
+                    delete cartItems[productName];
+                }
+
+                updateCart();
+            }
+        }
+
+        function clearCart() {
+            total = 0;
+            for (const productName in cartItems) {
+                delete cartItems[productName];
+            }
+            document.getElementById('total').textContent = total;
+            updateCart();
+        }
+
+        function updateCart() {
+            const cartItemsContainer = document.getElementById('cart-items');
+            cartItemsContainer.innerHTML = '';
+            for (const [productName, item] of Object.entries(cartItems)) {
+                const cartItem = document.createElement('div');
+                cartItem.className = 'cart-item';
+                cartItem.innerHTML = `
+                    <span>${productName} x${item.quantity}</span>
+                    <span>$${item.totalPrice}</span>
+                    <button class="remove-button" onclick="removeFromCart('${productName}')">Eliminar</button>
+                `;
+                cartItemsContainer.appendChild(cartItem);
+            }
+        }
+
+        function proceedToCheckout() {
+            // Redirigir a la página de checkout (checkout.php)
+            window.location.href = 'checkout.php';  
+        }
+
+        function enviarCarrito() {
+    // Obtener los datos del carrito (cartItems) como un objeto
+    const cartItems = {
+        productName: 'Camiseta',
+        quantity: 2,
+        unitPrice: 20,
+        totalPrice: 40,
+    };
+
+    // Convertir el objeto a una cadena JSON
+    const cartItemsJSON = JSON.stringify(cartItems);
+
+    // Asignar la cadena JSON al campo oculto
+    document.getElementById('cartItemsInput').value = cartItemsJSON;
+
+    // Enviar el formulario
+    document.getElementById('checkout-form').submit();
+}
+    </script>
+</body>
+</html>

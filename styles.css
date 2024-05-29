@@ -1,0 +1,208 @@
+body {
+    font-family: Arial;
+    font-size: 17px;
+    padding: 2px;
+  }
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    background-color: aliceblue;
+
+    gap: 16px;
+    padding: 16px;
+    border-radius: 16px;
+    margin: 8px;
+
+}
+
+.grid-container>*:not(.grid-itemmc, .grid-item1, .grid-itemtacos, form, input){
+
+  color: white;
+  border-radius: 8px;
+  padding: 20px;
+  font-size: 22px;
+  text-align: center;
+  background-color: #666;
+}
+
+.grid-item1{
+    color: white;
+    grid-column-start: 1;
+    grid-column-end: 5;
+    
+    height: 200px;
+    padding: 20px;
+    border-radius: 8px;
+    font-size: 30px;
+    text-align: center;
+    background-color: rgb(1, 146, 146);
+}
+
+.grid-itemmc{
+  color: rgb(243, 219, 0);
+  grid-column-start: 1;
+  grid-column-end: 5;
+  
+  height: 200px;
+  padding: 20px;
+  border-radius: 8px;
+  font-size: 30px;
+  text-align: center;
+
+  background-image: url(/xampp/htdocs/ProyectosHTML/RogerEats/images/mcbanner2.jpg) repeat;
+  background-color: red;
+}
+
+.grid-itemtacos{
+  color: #fb6306;
+  grid-column-start: 1;
+  grid-column-end: 5;
+  
+  height: 200px;
+  padding: 20px;
+  border-radius: 8px;
+  font-size: 30px;
+  text-align: center;
+
+  background-color: #fb6306;
+}
+
+
+ul {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    font-family: Arial;
+    line-height: 2.8;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    height: 40px;
+  }
+
+  a:hover:not(.active){
+    background-color: #111;
+  }
+
+  .active {
+    background-color: rgb(1, 146, 146);
+  }
+
+  .btn {
+    background-color: rgb(1, 146, 146);
+    color: white;
+    padding: 12px;
+    margin: 10px 0;
+    border: none;
+    width: 50%;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 17px;
+  }
+  
+  .btn:hover {
+    background-color: rgb(1, 110, 110);
+  }
+
+/* codigo */
+
+
+.product-list {
+  flex-grow: 1;
+  max-width: 600px;
+  margin: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+button {
+  background-color: rgb(1, 146, 146);
+  color: white;
+  padding: 12px;
+  margin: 10px 0;
+  border: none;
+  width: 50%;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 17px;
+}
+button:hover {
+  background-color: rgb(1, 110, 110);
+}
+.cart {
+  position: fixed;
+  color: #111;
+  width: 300px;
+  margin: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 20px;
+
+  top: 0px;
+  right: 0px;
+  overflow-y: auto;
+}
+.cart h2 {
+  margin: 0;
+  margin-bottom: 20px;
+}
+.cart-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.total {
+  font-size: 20px;
+  font-weight: bold;
+}
+.save-button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #21ecf3;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.save-button:hover {
+  background-color: #23c1c7;
+}
+.remove-button {
+  padding: 5px 10px;
+  background-color: #f44336;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.remove-button:hover {
+  background-color: #d32f2f;
+}
+.clear-button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #f44336;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.clear-button:hover {
+  background-color: #d32f2f;
+}
